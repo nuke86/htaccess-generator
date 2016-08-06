@@ -28,7 +28,7 @@ I personally use this tool to generate file .htaccess directly.
 ```
 #!bash
 
- ./htgen -w example.com > .htaccess
+node htgen.js -w example.com > .htaccess
 
 ```
 ... And put this file in home directory of example.com website. Ready-To-Use!
